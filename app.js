@@ -77,5 +77,15 @@ playBtn.addEventListener('click', function() {
     }
 } )
 
+resetBtn.addEventListener('click', function() {
+    window.clearInterval(timerInterval); // Stops the timer
+    // Reset seconds, minutes and hours back to '0' when the reset button is clicked
+    seconds = 0;
+    minutes = 0;
+    hours = 0;
+
+    document.getElementById('timer').innerHTML = '00:00:00'; // Changes the timer back to 00:00:00 in the browser
+})
+
 // window.setInterval(stopWatch, 1000); - Display the stopWatch functionality using the window object (when the browser loads) and setInterval function
 
