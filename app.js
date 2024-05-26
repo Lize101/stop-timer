@@ -78,7 +78,7 @@ playBtn.addEventListener('click', function() {
 } )
 
 resetBtn.addEventListener('click', function() {
-    window.clearInterval(timerInterval); // Stops the timer
+    window.clearInterval(timerInterval); // Stops the timer when reset button is clicked
     // Reset seconds, minutes and hours back to '0' when the reset button is clicked
     seconds = 0;
     minutes = 0;
