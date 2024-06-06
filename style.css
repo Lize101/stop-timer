@@ -59,3 +59,22 @@ button i {
         font-size: 3rem;
     }
 }
+
+@media (max-width:400px) {
+
+    #timer {
+        font-size: 2.5rem;
+    }
+
+    button i {
+        padding: 15px 25px;
+    }
+
+    #resetbtn {
+        margin-top: 15px;
+    }
+
+    #playbtn {
+        margin-top: -15px;
+    }
+}
